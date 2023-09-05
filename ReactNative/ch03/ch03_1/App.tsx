@@ -1,6 +1,6 @@
 import React from 'react'
 import {StyleSheet, SafeAreaView, Text} from 'react-native'
-import {Colors} from 'react-native-paper'
+import {MD2Colors} from 'react-native-paper'
 
 export default function App() {
   return (
@@ -14,6 +14,6 @@ export default function App() {
 //prettier ignore
 const styles = StyleSheet.create({
   safeAreaView: {flex: 1, alignItems: 'center', justifyContent: 'center',
-  backgroundColor: Colors.blue500},
-  text: {fontSize: 20, color: Colors.blue200}
+  backgroundColor: MD2Colors.blue500},
+  text: {fontSize: 20, color: MD2Colors.blue200}
 })
