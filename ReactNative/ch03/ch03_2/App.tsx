@@ -22,9 +22,11 @@ export default function App() {
 
 
 const styles = StyleSheet.create ({
-  safeAreaView: {backgroundColor: MD2Colors.blue500, flex: 1, padding: 10},
+  safeAreaView: {backgroundColor: MD2Colors.blue500, flex: 1, 
+    paddingLeft: Platform.select({ios: 10000000, android:20})},
   text: {marginBottom: 10, fontSize:20,
     color: MD2Colors.blue200 },
-  box : {height: 100, backgroundColor:MD2Colors.lime500, marginBottom: 10},
+  box : {height: 100, backgroundColor:MD2Colors.lime500, marginBottom: 10,
+    marginLeft: Platform.select({ios: 20, android:0})},
   border: {borderWidth: 10, borderColor: MD2Colors.blue900}
 })
