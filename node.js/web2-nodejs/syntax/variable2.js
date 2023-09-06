@@ -1,2 +1,3 @@
-var letter ='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum metus consequat, elementum ex a, hendrerit sapien. Aenean aliquam nisi sed malesuada dictum. Donec semper libero id commodo cursus. Morbi in tellus vulputate, dignissim erat condimentum, varius dolor. Integer sapien nisl, tincidunt imperdiet risus a, volutpat dignissim magna. Maecenas ultricies dapibus interdum. Nulla condimentum dignissim sapien mollis aliquet.'
-console.log (letter)
+var name = 'egoing';
+var letter = 'Dear '+name+' Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '+name+' Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa egoing qui officia deserunt mollit anim id est laborum. '+name;
+console.log(letter);
