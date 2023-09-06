@@ -1,0 +1,2 @@
+var letter ='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum metus consequat, elementum ex a, hendrerit sapien. Aenean aliquam nisi sed malesuada dictum. Donec semper libero id commodo cursus. Morbi in tellus vulputate, dignissim erat condimentum, varius dolor. Integer sapien nisl, tincidunt imperdiet risus a, volutpat dignissim magna. Maecenas ultricies dapibus interdum. Nulla condimentum dignissim sapien mollis aliquet.'
+console.log (letter)
