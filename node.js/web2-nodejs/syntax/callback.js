@@ -8,4 +8,4 @@ function slowfunc(callback) {
 
 console.log('a')
 slowfunc(b)
-console.log('c')
+console.log('c' )
