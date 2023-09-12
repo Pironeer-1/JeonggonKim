@@ -1,46 +1,46 @@
 export const USERS = [
     {
-        user : 'clverqazi',
+        user : '1clverqazi',
         image:'https://images.healthshots.com/healthshots/en/uploads/2023/01/18175821/face-glow-770x436.jpg'
 
     },
     {
-        user : 'clverqaziadsfasdf',
+        user : '2clverqaziadsfasdf',
         image:'https://images.healthshots.com/healthshots/en/uploads/2023/01/18175821/face-glow-770x436.jpg'
 
     },
     {
-        user : 'clverqazi',
+        user : '3clverqazi',
         image:'https://images.healthshots.com/healthshots/en/uploads/2023/01/18175821/face-glow-770x436.jpg'
 
     },
     {
-        user : 'clverqazi',
+        user : '4clverqazi',
         image:'https://images.healthshots.com/healthshots/en/uploads/2023/01/18175821/face-glow-770x436.jpg'
 
     },
     {
-        user : 'clverqazi',
+        user : '5clverqazi',
         image:'https://images.healthshots.com/healthshots/en/uploads/2023/01/18175821/face-glow-770x436.jpg'
 
     },
     {
-        user : 'clverqazi',
+        user : '6clverqazi',
         image:'https://images.healthshots.com/healthshots/en/uploads/2023/01/18175821/face-glow-770x436.jpg'
 
     },
     {
-        user : 'clverqazi',
+        user : '7clverqazi',
         image:'https://images.healthshots.com/healthshots/en/uploads/2023/01/18175821/face-glow-770x436.jpg'
 
     },
     {
-        user : 'clverqazi',
+        user : '8clverqazi',
         image:'https://images.healthshots.com/healthshots/en/uploads/2023/01/18175821/face-glow-770x436.jpg'
 
     },
     {
-        user : 'clverqazi',
+        user : '9clverqazi',
         image:'https://images.healthshots.com/healthshots/en/uploads/2023/01/18175821/face-glow-770x436.jpg'
 
     },

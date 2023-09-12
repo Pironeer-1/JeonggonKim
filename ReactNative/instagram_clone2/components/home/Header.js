@@ -35,7 +35,6 @@ const styles= StyleSheet.create({
         alignItems: 'center',
         flexDirection: 'row',
         marginHorizontal: 20,
-        marginTop: 20,
     },
     iconsContainer : {
         flexDirection: 'row',
