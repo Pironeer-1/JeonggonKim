@@ -41,7 +41,7 @@ var app = http.createServer(function (request, response) {
         if (queryData.id === undefined) {
             fs.readdir('./data', function (error, filelist) {
                 var title = 'Welcome';
-                var description = 'Hello, Node.js';
+                var description = 'Hello, Web';
                 var list = templateList(filelist);
                 var template = templateHTML(title, list, `<h2>${title}</h2><p>${description}</p>`);
                 response.writeHead(200)
@@ -85,8 +85,10 @@ var app = http.createServer(function (request, response) {
             var post = qs.parse(body)
             var title = post.title;
             var description = post.description
-            console.log(title)
-            console.log(description)
+            fs.writeFile(`data/${title}`,description,'utf8',function(err){
+                response.writeHead(302, {Location: `/?id=${title}`});
+                response.end()
+            })
         });
     } 
     else {
