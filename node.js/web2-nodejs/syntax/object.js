@@ -8,4 +8,6 @@ var roles ={
     'c' : 3,
 }
 
-console.log(roles.b)
+for(var i in roles) {
+    console.log(i + roles[i])
+}
