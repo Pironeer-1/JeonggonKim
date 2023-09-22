@@ -10,19 +10,22 @@ var compression = require('compression');
 
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(compression());
-app.get(function(request, response, next){    
+app.get('*',function(request, response, next){  
     fs.readdir('./data', function(error, filelist) {
         request.list = filelist;
         next();
     });
 });
+app.use(express.static('public'));
 
 app.get('/', function(request,response){
+    console.log(request.list)
     var title = 'Welcome';
     var description = 'Hello, Node.js';
     var list = template.list(request.list);
     var html = template.HTML(title, list,
-        `<h2>${title}</h2><p>${description}</p>`,
+        `<h2>${title}</h2><p>${description}</p>
+        <img src="/images/hello.jpg" style="width:300px; display:block; margin-top:10px;">`,
         `<a href="/create">create</a>`
     );
     response.send(html)
